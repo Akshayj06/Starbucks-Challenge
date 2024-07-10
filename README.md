@@ -26,6 +26,6 @@ Predict how many more companies (startups) will be founded per district and indu
 
 ## Submission
 - SQLite database: hamburg_starbucks.db
-- A README.md file that explains your approach step by step.
+- A README.md file 
 - Well commented code: hamburg_starbucks.ipynb
 - The list of the predicted growth of startups.
