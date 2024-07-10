@@ -18,9 +18,14 @@ Predict how many more companies (startups) will be founded per district and indu
 2. Create a list that shows the predicted growth of startups per industry and district.
 3. Visualize the data in a suitable way.
 
+## Approach
+1. Data from various sheets in the Excel file were considered. Business listings, new startups, business registrations and deregistrations by Hamburg districts were cleaned and analyzed.
+2. Data was normalized and a database for the cleaned data was created in SQLite
+3. The growth % of start-ups based on the above study(5—11.8%) was utilized to generate the maximum and minimum increase in the number of startups.
+4. Data is visualized for maximum and minimum increase in the number of startups, business and other startups.
+
 ## Submission
-- SQLite database.
+- SQLite database: hamburg_starbucks.db
 - A README.md file that explains your approach step by step.
-- The code you used.
-- The list of the predicted growth of startups per industry and district.
-- Data plot.
+- Well commented code: hamburg_starbucks.ipynb
+- The list of the predicted growth of startups.
